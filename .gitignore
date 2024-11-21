@@ -3,4 +3,5 @@
 *.pdf
 *.rmd
 *.html
-data/*.*
+data/
+.DS_Store
