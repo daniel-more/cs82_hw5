@@ -1,0 +1,30 @@
+name: nlp_env_conda
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python>=3.10
+  - numpy
+  - matplotlib
+  - jupyter
+  - scikit-learn
+  - sqlalchemy
+  - seaborn
+  - pandas
+  - IPython
+  - wordcloud
+  - nltk
+  - spacy
+  - gensim
+  - textblob
+  - cupy
+  - scipy<1.13
+  - pytorch-cuda=12.4
+  - cudatoolkit
+  - torchaudio
+  - torchvision
+  - pip
+  - pip:
+    - word-mover-distance
+    - sentence-transformers
