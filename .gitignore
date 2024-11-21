@@ -1,7 +1,8 @@
+.DS_Store
 *.csv
 *.json
 *.pdf
-*.rmd
-*.html
+*.Rmd
+*.nb.html
 data/
-.DS_Store
+
